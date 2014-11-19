@@ -10,7 +10,7 @@ The variants currently provided are
 
 ### 1) Error-correlated lagged triple co-location (ECLagTC)
 citation:
->Konings, A.G., K.A. McColl, S.H. Alemohammad, D. Entekhabi, C-H. Su (2014). Error Characterization of Similar Data Sets: Triple Collocation with Correlated Errors, Submitted to Geophys. Res. Lett.
+>Konings, A.G., K.A. McColl, S.H. Alemohammad, D. Entekhabi, and C-H. Su (2014). Error Characterization of Similar Data Sets: Triple Collocation with Correlated Errors, Submitted to Geophys. Res. Lett.
 
 A variant of triple-collocation that uses a lagged version of one of the three data sets as a third dataset, so that only two independent datasets are needed. Unlike other versions of TC, the errors of different data sets are not assumed to be independent, and their cross-correlations are explicitly accounted for. 
 The ECLagTC method uses an errors-in-variables regression due to York (1968). Code for performing this regression is also included
